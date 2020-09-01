@@ -6,7 +6,15 @@ import { Provider } from "react-redux";
 import Store from "./redux/store";
 import { Route, Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
-import 'bootstrap/dist/css/bootstrap.min.css';
+
+// import $ from "jquery";
+
+import "./containers/App/Layout/css/bootstrap.min.css"
+import "./containers/App/Layout/css/style.css"
+import "./containers/App/Layout/css/menu.css"
+import "./containers/App/Layout/css/color/color.css"
+import "./containers/App/Layout/css/responsive.css"
+
 
 const history = createBrowserHistory();
 

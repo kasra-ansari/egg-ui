@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-// import { Redirect, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 // import { PrivateRoute } from "../../components/PrivateRoute";
-import Layout from "./Layout";
-import { Button } from 'react-bootstrap';
+import MainPage from '../mainPage/index';
 
 const mapStateToProps = (state) => (
     {
@@ -15,11 +14,19 @@ const mapStateToProps = (state) => (
 class App extends Component {
     render() {
         return (
-            <>
-                <Layout>
-                    this is app <Button>hi</Button>
-                </Layout>
-            </>
+            <div>
+                <Route exact path={`/`} component={MainPage}></Route>
+            </div>
+            // <Suspense fallback={<Loading />}>
+            //         {/* <LayoutSwitcher condition={this.props.isLogin}> */}
+            //             <Route exact path={`/`} component={MainPage}>
+
+            //             {/* <PrivateRoute exact path={`/stocks`} component={Stocks} /> */}
+            //             {/* <PrivateRoute path={`/stocks/order`} component={AlgorithmOrder} /> */}
+            //             <Route path={`/login`} component={Login} />
+            //             {/*<Route path="*" component={NotFoundPage}/>*/}
+            //         {/* </LayoutSwitcher> */}
+            //     </Suspense>
         )
     }
 }
