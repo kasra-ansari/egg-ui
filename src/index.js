@@ -14,6 +14,7 @@ import "./containers/App/Layout/css/style.css"
 import "./containers/App/Layout/css/menu.css"
 import "./containers/App/Layout/css/color/color.css"
 import "./containers/App/Layout/css/responsive.css"
+import "./containers/App/Layout/css/rtl.less";
 
 
 const history = createBrowserHistory();

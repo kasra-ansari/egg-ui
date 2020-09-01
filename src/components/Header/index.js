@@ -40,6 +40,21 @@ const Header = () => {
                                     <li><a href="#somthing">Home 1</a></li>
                                 </ul>
                             </li>
+                            <li><a href="#somthing"className="">Home</a>
+                                <ul className="wsmenu-submenu">
+                                    <li><a href="#somthing">Home 1</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#somthing"className="">Home</a>
+                                <ul className="wsmenu-submenu">
+                                    <li><a href="#somthing">Home 1</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#somthing"className="">Home</a>
+                                <ul className="wsmenu-submenu">
+                                    <li><a href="#somthing">Home 1</a></li>
+                                </ul>
+                            </li>
                             <li><a href="#somthing">pages <span className="arrow"></span></a>
                                 <ul className="wsmenu-submenu">
                                     <li><a href="#somthing">Features <span className="arrow"></span></a></li>

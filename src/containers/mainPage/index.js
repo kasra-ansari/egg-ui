@@ -6,6 +6,7 @@ import FeatureList from "../../components/FeatureListing";
 import CategoryWidget from "../../components/CategoryWidget";
 import FunfactsCounter from "../../components/FunfactsCounter";
 import SocialCarousel from "../../components/SocialCarousel";
+import ListingSection from "../../components/ListingSection";
 
 class MainPage extends Component {
     render() {
@@ -16,9 +17,16 @@ class MainPage extends Component {
 
                 <SearchForm />
 
-                <FeatureList/>
+                <FeatureList />
 
-                <CategoryWidget/>
+                <section className="aside-layout-section padding-bottom-40">
+                    <div className="container">
+                        <div className="row">
+                            <ListingSection />
+                            <CategoryWidget />
+                        </div>
+                    </div>
+                </section>
 
                 <FunfactsCounter />
 
