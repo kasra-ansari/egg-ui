@@ -5,7 +5,7 @@ const FeatureList = props => {
         <section className="feature-section padding-top-20 padding-bottom-70">
 			<div className="container">
 				<div className="section-title-wrap margin-bottom-50">
-					<h4>featured item</h4>
+					<h4>پر بازدیدها</h4>
 					<div className="title-divider">
 						<div className="line"></div>
 						<i className="fa fa-star-o"></i>
@@ -39,7 +39,7 @@ const FeatureList = props => {
 									<div className="feature-title">
 										<h6><a href="single-listing.html">Account Required</a></h6>
 									</div>
-									<div className="feature-location pull-left">
+									<div className="feature-location">
 										<a href="#"><i className="fa fa-map-marker"></i> Turkey</a>
 									</div>
 									<div className="star-rating pull-right">
@@ -72,7 +72,7 @@ const FeatureList = props => {
 									<div className="feature-title">
 										<h6><a href="single-listing.html">Doctor Available</a></h6>
 									</div>
-									<div className="feature-location pull-left">
+									<div className="feature-location">
 										<a href="#"><i className="fa fa-map-marker"></i> Turkey</a>
 									</div>
 									<div className="star-rating pull-right">
@@ -105,7 +105,7 @@ const FeatureList = props => {
 									<div className="feature-title">
 										<h6><a href="single-listing.html">Hotels & Travel</a></h6>
 									</div>
-									<div className="feature-location pull-left">
+									<div className="feature-location">
 										<a href="#"><i className="fa fa-map-marker"></i> Turkey</a>
 									</div>
 									<div className="star-rating pull-right">
@@ -138,7 +138,7 @@ const FeatureList = props => {
 									<div className="feature-title">
 										<h6><a href="single-listing.html">Meeting partner</a></h6>
 									</div>
-									<div className="feature-location pull-left">
+									<div className="feature-location">
 										<a href="#"><i className="fa fa-map-marker"></i> Turkey</a>
 									</div>
 									<div className="star-rating pull-right">
@@ -171,7 +171,7 @@ const FeatureList = props => {
 									<div className="feature-title">
 										<h6><a href="single-listing.html">SALE MY Property</a></h6>
 									</div>
-									<div className="feature-location pull-left">
+									<div className="feature-location">
 										<a href="#"><i className="fa fa-map-marker"></i> Turkey</a>
 									</div>
 									<div className="star-rating pull-right">
@@ -204,7 +204,7 @@ const FeatureList = props => {
 									<div className="feature-title">
 										<h6><a href="single-listing.html">Account Required</a></h6>
 									</div>
-									<div className="feature-location pull-left">
+									<div className="feature-location">
 										<a href="#"><i className="fa fa-map-marker"></i> Turkey</a>
 									</div>
 									<div className="star-rating pull-right">
@@ -237,7 +237,7 @@ const FeatureList = props => {
 									<div className="feature-title">
 										<h6><a href="single-listing.html">Doctor Available</a></h6>
 									</div>
-									<div className="feature-location pull-left">
+									<div className="feature-location">
 										<a href="#"><i className="fa fa-map-marker"></i> Turkey</a>
 									</div>
 									<div className="star-rating pull-right">
@@ -270,7 +270,7 @@ const FeatureList = props => {
 									<div className="feature-title">
 										<h6><a href="single-listing.html">Hotels & Travel</a></h6>
 									</div>
-									<div className="feature-location pull-left">
+									<div className="feature-location">
 										<a href="#"><i className="fa fa-map-marker"></i> Turkey</a>
 									</div>
 									<div className="star-rating pull-right">
@@ -303,7 +303,7 @@ const FeatureList = props => {
 									<div className="feature-title">
 										<h6><a href="single-listing.html">Meeting partner</a></h6>
 									</div>
-									<div className="feature-location pull-left">
+									<div className="feature-location">
 										<a href="#"><i className="fa fa-map-marker"></i> Turkey</a>
 									</div>
 									<div className="star-rating pull-right">

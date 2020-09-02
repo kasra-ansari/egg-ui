@@ -1,6 +1,6 @@
 // Run javascript after DOM is initialized
-$(document).ready(function() {
+// $(document).ready(function() {
 
-	$('#map_canvas').mapit();
+// 	$('#map_canvas').mapit();
 
-});
+// });

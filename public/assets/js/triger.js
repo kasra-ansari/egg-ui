@@ -11,7 +11,8 @@ $(document).ready(function() {
 	stopOnHover : true,
 	responsiveClass:true,
 	dots: false,
-	loop:true,
+    loop:true,
+    rtl: true,
     responsive:{
         0:{
             items:1,

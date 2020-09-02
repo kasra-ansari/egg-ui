@@ -15,7 +15,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <Route exact path={`/`} component={MainPage}></Route>
+                <Route exact path={`/`} component={MainPage} />
             </div>
             // <Suspense fallback={<Loading />}>
             //         {/* <LayoutSwitcher condition={this.props.isLogin}> */}

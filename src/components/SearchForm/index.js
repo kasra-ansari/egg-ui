@@ -6,12 +6,12 @@ const SearchForm = () => {
 			<div className="container">
 				<div className="search-form-wrap">
 					<form className="clearfix" action="#">
-						<div className="input-field-wrap pull-left">
-							<input className="search-form-input" name="key-word" placeholder="enter keyword" type="text"/>
+						<div className="input-field-wrap pull-right">
+							<input className="search-form-input" name="key-word" placeholder="کلمه مورد نظر" type="text"/>
 						</div>
-						<div className="select-field-wrap pull-left">
+						<div className="select-field-wrap pull-right">
 							<select className="search-form-select" name="location" >
-								<option className="options" value="all-locations">all locations</option>
+								<option className="options" value="all-locations">همه مکان‌ها</option>
 								<option className="options" value="america">America</option>
 								<option className="options" value="canada">Canada</option>
 								<option className="options" value="france">France</option>
@@ -20,9 +20,9 @@ const SearchForm = () => {
 								<option className="options" value="china">china</option>
 							</select>
 						</div>
-						<div className="select-field-wrap pull-left">
+						<div className="select-field-wrap pull-right">
 							<select className="search-form-select" name="categories" >
-								<option className="options" value="all-categories">all categories</option>
+								<option className="options" value="all-categories">همه دسته‌بندی‌ها</option>
 								<option className="options" value="america">business</option>
 								<option className="options" value="canada">free lancing</option>
 								<option className="options" value="france">web development</option>
@@ -31,8 +31,9 @@ const SearchForm = () => {
 								<option className="options" value="china">bootstrap</option>
 							</select>
 						</div>
-						<div className="submit-field-wrap pull-left">
-							<input className="search-form-submit bgyallow-1 white" name="key-word" type="submit"/>
+						<div className="submit-field-wrap pull-right">
+							<button className="search-form-submit bgyallow-1 white">ارسال</button>
+							{/* <input className="search-form-submit bgyallow-1 white" name="key-word" type="submit"/> */}
 						</div>
 					</form>
 				</div>

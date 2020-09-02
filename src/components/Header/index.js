@@ -35,26 +35,17 @@ const Header = () => {
                     <nav className="wsmenu slideLeft clearfix">
                         <div className="logo pull-left"><a href="#somthing" title="Responsive Slide Menus"><img src="images/logo.png.html" alt="" /></a></div>
                         <ul className="mobile-sub wsmenu-list pull-right">
-                            <li><a href="#somthing"className="">Home</a>
+                            <li><a href="#somthing"className="">خانه</a>
                                 <ul className="wsmenu-submenu">
-                                    <li><a href="#somthing">Home 1</a></li>
+                                    <li><a href="#somthing">خانه 1</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#somthing"className="">Home</a>
+                            <li><a href="#somthing"className="">خانه</a>
                                 <ul className="wsmenu-submenu">
-                                    <li><a href="#somthing">Home 1</a></li>
+                                    <li><a href="#somthing">خانه 1</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#somthing"className="">Home</a>
-                                <ul className="wsmenu-submenu">
-                                    <li><a href="#somthing">Home 1</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#somthing"className="">Home</a>
-                                <ul className="wsmenu-submenu">
-                                    <li><a href="#somthing">Home 1</a></li>
-                                </ul>
-                            </li>
+                        
                             <li><a href="#somthing">pages <span className="arrow"></span></a>
                                 <ul className="wsmenu-submenu">
                                     <li><a href="#somthing">Features <span className="arrow"></span></a></li>
